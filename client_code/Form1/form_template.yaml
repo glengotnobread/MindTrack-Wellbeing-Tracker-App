@@ -1,5 +1,30 @@
 components:
-- components: []
+- components:
+  - components: []
+    layout_properties: {grid_position: 'LYYPVV,BRZDVP'}
+    name: column_panel_1
+    properties: {background: 'theme:Primary', border: '', col_widths: '{}', role: elevated-card}
+    type: ColumnPanel
+  - layout_properties: {grid_position: 'NFMGJC,VJSESW'}
+    name: button_1_copy
+    properties: {background: 'theme:Secondary Container', role: elevated-button, text: button_1}
+    type: Button
+  - layout_properties: {grid_position: 'DMCTCK,MVBEII'}
+    name: button_1
+    properties: {background: 'theme:Secondary Container', role: elevated-button, text: button_1}
+    type: Button
+  - layout_properties: {grid_position: 'IMCCPZ,JFSQAL'}
+    name: button_1_copy_3
+    properties: {background: 'theme:Secondary Container', role: elevated-button, text: button_1}
+    type: Button
+  - layout_properties: {grid_position: 'YIHFNP,WKBTGV'}
+    name: button_1_copy_4
+    properties: {background: 'theme:Secondary Container', role: elevated-button, text: button_1}
+    type: Button
+  - layout_properties: {grid_position: 'BJUWOH,AZBZIR'}
+    name: button_1_copy_2
+    properties: {background: 'theme:Secondary Container', role: elevated-button, text: button_1}
+    type: Button
   layout_properties: {slot: default}
   name: content_panel
   properties:
@@ -13,6 +38,6 @@ components:
   type: Label
 container:
   data_bindings: []
-  properties: {border: '', html: '@theme:standard-page.html'}
+  properties: {border: '', foreground: 'theme:On Primary', html: '@theme:standard-page.html'}
   type: HtmlTemplate
 is_package: true
