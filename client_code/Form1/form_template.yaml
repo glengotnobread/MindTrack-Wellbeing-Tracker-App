@@ -1,5 +1,12 @@
 components:
-- components: []
+- components:
+  - layout_properties: {grid_position: 'DPETLJ,LMQUYC'}
+    name: column_panel_1
+    properties:
+      background: theme:Secondary
+      spacing:
+        padding: [null, null, 0, 0]
+    type: ColumnPanel
   layout_properties: {slot: default}
   name: content_panel
   properties: {col_widths: '{}'}
@@ -8,7 +15,12 @@ components:
   name: navbar_links
   properties: {}
   type: FlowPanel
+- layout_properties: {slot: title}
+  name: label_1
+  properties: {text: MindTrack}
+  type: Label
 container:
-  properties: {html: '@theme:standard-page.html'}
+  data_bindings: []
+  properties: {border: '', html: '@theme:standard-page.html'}
   type: HtmlTemplate
 is_package: true
