@@ -1,21 +1,5 @@
 components:
-- components:
-  - data_bindings: []
-    event_bindings: {show: column_panel_1_show}
-    layout_properties: {full_width_row: true, grid_position: 'DPETLJ,LMQUYC'}
-    name: column_panel_1
-    properties:
-      background: theme:Secondary
-      border: ''
-      col_spacing: medium
-      foreground: ''
-      role: outlined-card
-      spacing:
-        padding: [0, 0, 0, 0]
-      spacing_above: small
-      visible: true
-      wrap_on: mobile
-    type: ColumnPanel
+- components: []
   layout_properties: {slot: default}
   name: content_panel
   properties:
@@ -23,10 +7,6 @@ components:
     spacing:
       padding: [null, null, 56, null]
   type: ColumnPanel
-- layout_properties: {slot: nav-right}
-  name: navbar_links
-  properties: {}
-  type: FlowPanel
 - layout_properties: {slot: title}
   name: label_1
   properties: {text: MindTrack}
